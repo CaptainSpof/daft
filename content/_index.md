@@ -1,8 +1,27 @@
 +++
-title = "DeepThought"
-description = "The Answer to the Ultimate Question of Life, the Universe, and Everything is 42."
+title = "Daft"
+description = "Rambling from a daft man."
 +++
 
-**DeepThought** is a computer that was created by a pan-dimensional, hyper-intelligent species of beings (whose three-dimensional protrusions into our universe are ordinary white mice) to come up with the Answer to The Ultimate Question of Life, the Universe, and Everything. DeepThought is the size of a small city. When, after seven and a half million years of calculation, the answer finally turns out to be 42, DeepThought admonishes Loonquawl and Phouchg (the receivers of the Ultimate Answer) that "[she] checked it very thoroughly, and that quite definitely is the answer. I think the problem, to be quite honest with you is that you've never actually known what the question was."
+Hello there I am **Daf**t! 
 
-DeepThought does not know the ultimate question to Life, the Universe and Everything, but offers to design an even more powerful computer, Earth, to calculate it. After ten million years of calculation, the Earth is destroyed by Vogons five minutes before the computation is complete. 
+Welcome to my personal site, which will most likely stay empty for a while.
+
+The idea of this website is to help me understand stuff by writing about them. I'll definitely get things wrong, but hey, that's something.
+
+In my mind, this could become my "brain dump". Usually, I try to write stuff in some org-mode files, that's pretty good. But what if I could, by some magically induced CI, post my local brain dump straight to a neat static website?
+At least, that's the plan, let see where it will land.
+
+Oops, forgot to tell about me…
+
+I work with computers.
+
+At first, I was supposed to become a "developer", then life happen and now, I describe myself as an "SRE", "infra guy", something of the sort.
+
+I still like to develop stuff, though. The problem is that, I am bad at it. That's why I'd like to re-learn to be a developer.
+
+I like the Rust programming language. Hopefully, I'll be able to write about it soon™. I am currently in the process of going through all the learning material that I find. And occasionally, I'll try to apply it in some personal dumb little projects. Maybe, I'll make a section about them, somewhere in this site.
+
+In the DevOps world, I am particularly interested in Nix, reproducible build, declarative environment, that's pretty neat!
+
+One last thing, I like Emacs. Elisp, is another language I'd like to learn. Wasting time "improving" my workflow is something that I practice quite often.

@@ -1,15 +1,12 @@
-base_url = "https://daftdaf.netlify.app"
+base_url = "https://daftdaf.dev"
 title = "Daft"
 default_language = "en"
-highlight_code = true
-highlight_theme = "one-dark"
 generate_feed = true
 feed_filename = "rss.xml"
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 10 },
     { name = "tags", fees = true, paginate_by = 10 },
 ]
-languages = []
 compile_sass = true
 build_search_index = true
 ignored_content = []
@@ -31,6 +28,7 @@ navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
         { url = "$BASE_URL/posts", name = "Posts" },
+        { url = "$BASE_URL/projects", name = "Projects" },
         { url = "$BASE_URL/docs", name = "Docs" },
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Categories" },
@@ -45,7 +43,7 @@ safari_pinned_tab = "/icons/safari-pinned-tab.svg"
 webmanifest = "/icons/site.webmanifest"
 
 [extra.author]
-name = "DeepThought"
+name = "Daf"
 avatar = "/images/avatar.png"
 
 [extra.social]
@@ -60,3 +58,8 @@ email = "captain.spof@gmail.com"
 
 [extra.mapbox]
 access_token = ""
+
+[markdown]
+highlight_code = true
+highlight_theme = "demain"
+languages = []

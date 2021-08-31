@@ -1,6 +1,6 @@
 +++
 title = "Projects"
-description = "Documentation for the Deep Thought theme."
+description = "Where I present my silly stuff."
 sort_by = "date"
 paginate_by = 5
 +++

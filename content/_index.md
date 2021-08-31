@@ -3,7 +3,7 @@ title = "D̵̩͒a̸̲͋f̵͍͌ẗ̵͖́"
 description = "Rambling from a daft man."
 +++
 
-##### 🚧 **Beware, this site is still in construction and, as such  might contains ̸b̶r̸o̴k̷e̵n̶ ̴o̸r̷ ̸u̴n̴f̸i̶n̵i̴s̵h̸e̴d̴ ̶a̷r̶t̸i̵c̴l̸e̶s̵ ̸n̴o̴t̶ ̴c̵o̷n̶t̸a̶i̸n̸a̸̡̹͋̏n̶͉̥̐y̸̨̗͖͛t̴͛̅͘͜ḫ̷̒͑i̶̖̔̾͘n̸͔̓g̴̣̿̕ ̵̤̙̂̊ǐ̸̱n̷̛̺̒ͅt̴̘̉͛e̵͓͉̱̐r̸̞̀̕s̸̹̆ṱ̷͋ḭ̷̰̿̔͌n̶̟̻̩̑͋g̸̱̾ ̴͈̌̌o̸͕̖̓ř̵͖̝ ̸̧͂t̷̢͇͂̈́̓ŕ̵͕͉̇u̵͍͂e̷̘͎̅͝ͅ ̵̮̻͓̑̀f̵̦̭́͛̈́ͅo̵̬̾̈́́r̶͙̿ ̷̧̤͊̑͜t̸̛̙̿͝h̴͓̟̾̕͝a̶̡͎̬̋̚t̶̘̽̋ ̶̛̦͛̇m̸̰̩͉̂̈́̕ả̷̦̙t̶̛̠̮̫͛ț̸̫͚͗e̴̦̣̽͘ŕ̵̨̺͉̈́.̸̗̖̔̇̀ �̴͓͎̠͗͒�̴̟͍͇̈́̆**
+##### 🚧 **Beware, this site is still under construction and, as such  might contains ̸b̶r̸o̴k̷e̵n̶ ̴o̸r̷ ̸u̴n̴f̸i̶n̵i̴s̵h̸e̴d̴ ̶a̷r̶t̸i̵c̴l̸e̶s̵ ̸n̴o̴t̶ ̴c̵o̷n̶t̸a̶i̸n̸a̸̡̹͋̏n̶͉̥̐y̸̨̗͖͛t̴͛̅͘͜ḫ̷̒͑i̶̖̔̾͘n̸͔̓g̴̣̿̕ ̵̤̙̂̊ǐ̸̱n̷̛̺̒ͅt̴̘̉͛e̵͓͉̱̐r̸̞̀̕s̸̹̆ṱ̷͋ḭ̷̰̿̔͌n̶̟̻̩̑͋g̸̱̾ ̴͈̌̌o̸͕̖̓ř̵͖̝ ̸̧͂t̷̢͇͂̈́̓ŕ̵͕͉̇u̵͍͂e̷̘͎̅͝ͅ ̵̮̻͓̑̀f̵̦̭́͛̈́ͅo̵̬̾̈́́r̶͙̿ ̷̧̤͊̑͜t̸̛̙̿͝h̴͓̟̾̕͝a̶̡͎̬̋̚t̶̘̽̋ ̶̛̦͛̇m̸̰̩͉̂̈́̕ả̷̦̙t̶̛̠̮̫͛ț̸̫͚͗e̴̦̣̽͘ŕ̵̨̺͉̈́.̸̗̖̔̇̀ �̴͓͎̠͗͒�̴̟͍͇̈́̆**
 
 
 Hello there, I am **Daf**t! 

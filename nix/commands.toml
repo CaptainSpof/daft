@@ -1,0 +1,17 @@
+[[commands]]
+name = "update-nixpkgs"
+category = "Flake"
+command = "nix flake lock --update-input nixpkgs"
+help = "update nixpkgs channel"
+
+[[commands]]
+name = "update-inputs"
+category = "Flake"
+command = "nix flake lock --update-input"
+help = "update all flake inputs"
+
+[[commands]]
+name = "serve-it"
+category = "daft"
+command = "zola serve"
+help = "serve website locally"

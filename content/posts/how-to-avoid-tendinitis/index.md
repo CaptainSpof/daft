@@ -1,6 +1,6 @@
 +++
 title="How systemd saved me from tendinitis or how to use systemd timer in Nix (also Rust)"
-date=2018-08-20
+date=2021-09-10
 
 [taxonomies]
 categories = ["Post"]

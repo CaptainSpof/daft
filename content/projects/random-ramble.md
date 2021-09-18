@@ -17,7 +17,7 @@ In the life of an agile project, the most exiting aspect of it is, by far, namin
 
 Still, naming a sprint is important. So much so that my coworkers often find themselves frozen by the responsibility of finding a good, meaningful name. Or maybe it was total disinterest and boredom.
 
-Anyway, I came up with a solution to these problems. Introducing `RandomRamble`.
+Anyway, I came up with a solution to these problems. Introducing [`RandomRamble`](https://github.com/CaptainSpof/random-ramble "It's bad, you've been warned").
 
 <details>
     <summary>*Cough*</summary>
@@ -62,4 +62,5 @@ No.
 
 ## Would you like to know more?
 
-[Here's a list of posts where I talk more about `Random-Ramble`](../../tags/random-ramble)
+- [Here's a link to the GitHub repository](https://github.com/CaptainSpof/random-ramble)
+- [Here's a list of posts where I talk more about `Random-Ramble`](../../tags/random-ramble)

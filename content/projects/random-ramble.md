@@ -4,7 +4,7 @@ description = "Generating random nonsense, because of reasons."
 date = 2021-08-30
 [taxonomies]
 categories = ["Project"]
-tags = ["rust", "generator", "wip"]
+tags = ["rust", "generator", "wip", "random-ramble"]
 
 [extra]
 comments = false
@@ -59,3 +59,7 @@ TODO: present the tree structure of the project.
 ## Is it any good, though?
 
 No.
+
+## Would you like to know more?
+
+[Here's a list of posts where I talk more about `Random-Ramble`](../../tags/random-ramble)

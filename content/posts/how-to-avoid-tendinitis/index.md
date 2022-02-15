@@ -25,7 +25,11 @@ ___
 >
 > -- <cite>Benjamin Franklin</cite>
 
-While this might not have been an accurate quote, this illustrate a problem that is quite known in my "keyword wielder" world of tech. This is not to say other fields are exempt from this, though. Case in point, one of my friend who doesn't work in the tech industry suffered wrist pain, "tendinitis" was the diagnosis the doctor presented.
+While this might not have been an accurate quote, this illustrate a problem that
+is quite known in my "keyword wielder" world of tech. This is not to say other
+fields are exempt from this, though. Case in point, one of my friend who doesn't
+work in the tech industry suffered wrist pain, "tendinitis" was the diagnosis
+the doctor presented.
 
 Since this is somewhat of a common sight in my domain, I went over the things I did to spare my wrists.
 
@@ -44,9 +48,11 @@ Since this is somewhat of a common sight in my domain, I went over the things I 
 >
 > -- <cite>Gandalf the Grey</cite>
 
-My first reaction was, well use your keyboard, silly. Reaching for your mouse every six seconds ain't good, trust me[^1].
+My first reaction was, well use your keyboard, silly. Reaching for your mouse
+every six seconds ain't good, trust me[^1].
 
-Do what I did, learn Vim bindings, integrate those bindings wherever you can (Firefox + tridactyl) then ditch Vim and replace it with Emacs + Evil.
+Do what I did, learn Vim bindings, integrate those bindings wherever you can
+(Firefox + tridactyl) then ditch Vim and replace it with Emacs + Evil.
 
 Why tho?
 
@@ -55,7 +61,9 @@ Why tho?
 >
 > -- <cite>Alexandre Astier</cite>
 
-I won't go into details about why the "original" QWERTY / AZERTY (and other variants) aren't really relevant in a modern world, with modern keyboards. It's more a thing of the past that stick. It's a:
+I won't go into details about why the "original" QWERTY / AZERTY (and other
+variants) aren't really relevant in a modern world, with modern keyboards. It's
+more a thing of the past that stick. It's a:
 
 ~~_if it ain't broken, don't fix it_~~ _If I don't care that it's broken, don't try to fix it for me._
 
@@ -63,7 +71,9 @@ kinda situation.
 
 ## What are the alternatives?
 
-A bunch of alternatives, actually. There are lots of keyboard layouts that try to facilitate the typing experience. Usually by "clustering" the most used key together.
+A bunch of alternatives, actually. There are lots of keyboard layouts that try
+to facilitate the typing experience. Usually by "clustering" the most used key
+together.
 
 # You want ERgOnOMICS 🏗
 
@@ -73,7 +83,8 @@ A bunch of alternatives, actually. There are lots of keyboard layouts that try t
 
 # Holup Nerdy McGuy, speak human, please 🏗
 
-But maybe, there's a first step somewhere, everything I talk about up to this point would represent a massive change ones life. How about just taking it easy?
+But maybe, there's a first step somewhere, everything I talk about up to this
+point would represent a massive change ones life. How about just taking it easy?
 
 ## Don't just stay here! Move arround!
 
@@ -195,8 +206,6 @@ fn main() {
 #### Nix 🏗
 #### What's next? 🏗
 
-<div style="font-family: Phuture">
-Would you like to know more?
-</div>
+### Would you like to know more?
 
 [^1]: No, really, you gotta trust me. I invested too much in my ways to be wrong. Also I cannot be bothered to do some research.

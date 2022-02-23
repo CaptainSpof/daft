@@ -28,7 +28,7 @@ Anyway, I came up with a solution to these problems. Introducing [`RandomRamble`
 
 ## Silliness Automated
 
-So yeah, the goal of this project was initially, to help us come up with a name for our sprints. We decided to take some inspiration from the naming of Ubuntu version, where every six months they unveil a new iteration labeled with an adjective and an animal specie name, both starting with the same letter. As of the time of writing the last release is dubbed "Hirsute Hippo", with "Impish Indri", just around the corner.
+So yeah, the goal of this project was initially, to help us come up with a name for our sprints. We decided to take some inspiration from the naming of Ubuntu version, where every six months they unveil a new iteration labeled with an adjective followed by an animal specie name, both starting with the same letter. As of the time of writing the last release is dubbed "Hirsute Hippo", with "Impish Indri", just around the corner.
 
 But we couldn't just blatantly plagiarized Canonical, that wouldn't be Gucci at all. So we settled with an adjective followed by a superhero name (and also Disney character because peer pressure).
 

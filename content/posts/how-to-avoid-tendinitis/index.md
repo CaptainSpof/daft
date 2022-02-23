@@ -26,7 +26,7 @@ ___
 > -- <cite>Benjamin Franklin</cite>
 
 While this might not have been an accurate quote, this illustrate a problem that
-is quite known in my "keyword wielder" world of tech. This is not to say other
+is quite known in my "keyboard wielder" world of tech. This is not to say other
 fields are exempt from this, though. Case in point, one of my friend who doesn't
 work in the tech industry suffered wrist pain, "tendinitis" was the diagnosis
 the doctor presented.
@@ -36,7 +36,9 @@ Since this is somewhat of a common sight in my domain, I went over the things I 
 <center style="background:#dbe5e6;">
 ⚠ <b>Hold it right there!</b> ⚠
 
-<it>This post is just a pretext to ramble about tech stuff. I can maybe name, like five muscles and three bones. </it>
+<it>This post is just a pretext to ramble about tech stuff.</it>
+<it>I can maybe name, like five muscles and three bones. </it>
+
 <it>also, I'm very dumb, don't take my word for it.</it>
 <br>
 <br>
@@ -62,10 +64,11 @@ Why tho?
 > -- <cite>Alexandre Astier</cite>
 
 I won't go into details about why the "original" QWERTY / AZERTY (and other
-variants) aren't really relevant in a modern world, with modern keyboards. It's
+variants) aren't really suitable in a modern world, with modern keyboards. It's
 more a thing of the past that stick. It's a:
 
-~~_if it ain't broken, don't fix it_~~ _If I don't care that it's broken, don't try to fix it for me._
+> ~~« _if it ain't broken, don't fix it_ »~~
+> «If I don't care that it's broken, don't try to fix it for me.»
 
 kinda situation.
 
@@ -75,7 +78,7 @@ A bunch of alternatives, actually. There are lots of keyboard layouts that try
 to facilitate the typing experience. Usually by "clustering" the most used key
 together.
 
-# You want ERgOnOMICS 🏗
+# You want ERgOnOMiCS 🏗
 
 > Simple, just buy a 300$+ split / ergonomic keyboard
 >
@@ -84,7 +87,7 @@ together.
 # Holup Nerdy McGuy, speak human, please 🏗
 
 But maybe, there's a first step somewhere, everything I talk about up to this
-point would represent a massive change ones life. How about just taking it easy?
+point would represent a massive change in one's life. How about just taking it easy?
 
 ## Don't just stay here! Move arround!
 
@@ -98,7 +101,10 @@ TODO: whatsup with systemd, why not CRON
       enable = true;
       wantedBy = [ "timers.target" ];
       partOf = [ "get-off-computer.service" ];
-      timerConfig.OnUnitActiveSec="20m";
+      timerConfig = {
+        OnBootSec = "30m";
+        OnUnitActiveSec = "20m";
+      };
     };
     services.get-off-computer = {
       description = "Don't stare at displays too much, take some pause. Get up, do some stretchs… Let me remind you of it gently.";

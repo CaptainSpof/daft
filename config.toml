@@ -1,6 +1,11 @@
 base_url = "https://daftdaf.dev"
+
 title = "Daft"
+description = "Rambling from a daft man."
 default_language = "en"
+
+theme = "DeepThought"
+
 generate_feed = true
 feed_filename = "rss.xml"
 taxonomies = [

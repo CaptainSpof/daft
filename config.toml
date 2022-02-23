@@ -38,6 +38,14 @@ navbar_items = [
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Categories" },
     ] },
+    { code = "fr", nav_items = [
+        { url = "$BASE_URL/", name = "Home" },
+        { url = "$BASE_URL/posts", name = "Postes" },
+        { url = "$BASE_URL/projects", name = "Projets" },
+        { url = "$BASE_URL/docs", name = "Docs" },
+        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/categories", name = "Catégories" },
+    ] },
 ]
 
 [extra.favicon]
@@ -67,4 +75,6 @@ access_token = ""
 [markdown]
 highlight_code = true
 highlight_theme = "demain"
-languages = []
+languages = [
+    {code = "fr"}
+]

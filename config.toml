@@ -4,10 +4,9 @@ title = "Daft"
 description = "Rambling from a daft man."
 default_language = "en"
 
-theme = "DeepThought"
-
 generate_feed = true
 feed_filename = "rss.xml"
+render_emoji = true
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 10 },
     { name = "tags", fees = true, paginate_by = 10 },

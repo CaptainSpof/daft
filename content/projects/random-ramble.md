@@ -13,11 +13,11 @@ toc = true
 
 <center> <h1>🏗 We be Wipping 🏗</h1> </center>
 
-In the life of an agile project, the most exiting aspect of it is, by far, naming the sprint… Well, no, ending a sprint is better, because there's the celebration at the pub afterward.
+In the life of an agile project, the most exiting aspect of it, by far, is naming the sprint… Well, no, ending the sprint is better, because there's the celebration at the pub afterward.
 
-Still, naming a sprint is important. So much so that my coworkers often find themselves frozen by the responsibility of finding a good, meaningful name. Or maybe it was total disinterest and boredom.
+Still, naming the sprint is important. So much so that my coworkers often find themselves frozen by the responsibility of finding a good, meaningful name. Or maybe it is total disinterest and boredom.
 
-Anyway, I came up with a solution to these problems. Introducing [`RandomRamble`](https://github.com/CaptainSpof/random-ramble "It's bad, you've been warned").
+Anyway, I came up with a solution to these problems: introducing [`RandomRamble`](https://github.com/CaptainSpof/random-ramble "It's bad, you've been warned").
 
 <details>
     <summary>*Cough*</summary>
@@ -28,9 +28,9 @@ Anyway, I came up with a solution to these problems. Introducing [`RandomRamble`
 
 ## Silliness Automated
 
-So yeah, the goal of this project was initially, to help us come up with a name for our sprints. We decided to take some inspiration from the naming of Ubuntu version, where every six months they unveil a new iteration labeled with an adjective followed by an animal specie name, both starting with the same letter. As of the time of writing the last release is dubbed "Hirsute Hippo", with "Impish Indri", just around the corner.
+So yeah, the goal of this project was initially, to help us come up with a name for our sprints. We decided to take some inspiration from the naming of Ubuntu version. Where every six months they unveil a new iteration labeled with an adjective followed by an animal specie name, both starting with the same letter. As of the time of writing the last release is dubbed "Hirsute Hippo", with "Impish Indri", just around the corner.
 
-But we couldn't just blatantly plagiarized Canonical, that wouldn't be Gucci at all. So we settled with an adjective followed by a superhero name (and also Disney character because peer pressure).
+But we couldn't just blatantly plagiarized Canonical, that wouldn't be Gucci at all. So we settled with an adjective followed by a superhero name (<small>and also Disney character because peer pressure</small>).
 
 Here's how I would generate a batch of 25 candidates for the sprint 'd':
 ```bash

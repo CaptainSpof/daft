@@ -1,41 +1,56 @@
 @charset "utf-8"
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* @font-face {font-family: "Menlo"; src: url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.eot"); src: url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.woff") format("woff"), url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9f94dc20bb2a09c15241d3a880b7ad01.svg#Menlo") format("svg"); }
 /* @import url('https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css');
 
 // Update Bulma's global variables
-$family-sans-serif: "Jost", sans-serif;
+$family-sans-serif: "Jost", sans-serif
 /* $family-sans-serif: "Menlo", sans-serif;
-$footer-padding: 1.0rem 2.5rem;
+$footer-padding: 1.0rem 2.5rem
 
 html
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 
 #tags,#categories
-    font-size: 0.9rem;
+    font-size: 0.9rem
 
 body
-    font-family: $family-sans-serif;
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: $family-sans-serif
+    font-size: 1.2rem
+    display: flex
+    flex-direction: column
+    min-height: 100vh
 
 
 body[theme="dark"]
-    filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg)
 
 
 section
-    flex: 1;
+    flex: 1
 
 
 img[theme="dark"],
 picture[theme="dark"],
 video[theme="dark"],
 pre[theme="dark"]
-    filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg)
+
+// Required by Zola's syntax highlighter (Giallo)
+.giallo-l
+    display: inline-block
+    min-height: 1lh
+    width: 100%
+
+.giallo-ln
+    display: inline-block
+    user-select: none
+    margin-right: 0.4em
+    padding: 0.4em
+    min-width: 3ch
+    text-align: right
+    opacity: 0.8

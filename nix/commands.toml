@@ -1,13 +1,13 @@
 [[commands]]
 name = "update-nixpkgs"
 category = "Flake"
-command = "nix flake lock --update-input nixpkgs"
+command = "nix flake update nixpkgs"
 help = "update nixpkgs channel"
 
 [[commands]]
 name = "update-inputs"
 category = "Flake"
-command = "nix flake lock --update-input"
+command = "nix flake update"
 help = "update all flake inputs"
 
 [[commands]]

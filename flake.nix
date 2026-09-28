@@ -12,7 +12,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         name = "daft";
-        overlays = [ (import rust-overlay) devshell-flake.overlay ];
+        overlays = [ (import rust-overlay) devshell-flake.overlays.default ];
         pkgs = import nixpkgs { inherit system overlays; };
         rust-wasm = pkgs.rust-bin.nightly.latest.default.override {
           extensions = [ "rust-src" ];
@@ -21,7 +21,7 @@
       in {
 
         # `nix develop`
-        devShell = with pkgs; let
+        devShells.default = with pkgs; let
           esc = "";
 
           orange = "${esc}[38;5;202m";
@@ -42,7 +42,6 @@
             packages = with pkgs; [
               openssl
               pkg-config
-              pkgconfig
               rust-wasm
               trunk
               wasm-bindgen-cli

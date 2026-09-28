@@ -16,14 +16,13 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Pinned: the site config/templates predate breaking changes in later Zola releases.
-  ZOLA_VERSION: "0.15.3"
+  ZOLA_VERSION: "0.23.6"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Zola
         run: |
@@ -34,7 +33,7 @@ jobs:
       - name: Build
         run: zola build
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
@@ -48,4 +47,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

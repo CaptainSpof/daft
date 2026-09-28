@@ -4,17 +4,17 @@ title = "Daft"
 description = "Rambling from a daft man."
 default_language = "en"
 
-generate_feed = true
-feed_filename = "rss.xml"
-render_emoji = true
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 10 },
-    { name = "tags", fees = true, paginate_by = 10 },
+    { name = "tags", feed = true, paginate_by = 10 },
 ]
 compile_sass = true
 build_search_index = true
 ignored_content = []
-extra_syntaxes = []
+# Posts contain code samples with Tera-like syntax and use no components.
+skip_content_templating = ["**/*.md"]
 
 [link_checker]
 skip_prefixes = ["http://[2001:db8::]/"]
@@ -33,7 +33,6 @@ navbar_items = [
         { url = "$BASE_URL/", name = "Home" },
         { url = "$BASE_URL/posts", name = "Posts" },
         { url = "$BASE_URL/projects", name = "Projects" },
-        { url = "$BASE_URL/docs", name = "Docs" },
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Categories" },
     ] },
@@ -41,7 +40,6 @@ navbar_items = [
         { url = "$BASE_URL/", name = "Home" },
         { url = "$BASE_URL/posts", name = "Postes" },
         { url = "$BASE_URL/projects", name = "Projets" },
-        { url = "$BASE_URL/docs", name = "Docs" },
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Catégories" },
     ] },
@@ -72,8 +70,7 @@ email = "captain.spof@gmail.com"
 access_token = ""
 
 [markdown]
-highlight_code = true
-highlight_theme = "demain"
-languages = [
-    {code = "fr"}
-]
+render_emoji = true
+
+[markdown.highlighting]
+theme = "github-light"

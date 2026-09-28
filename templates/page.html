@@ -16,19 +16,19 @@
           <p class="subtitle">{{ page.description }}</p>
           <div class="columns is-multiline is-gapless">
             <div class="column is-8">
-              {{ macros::page_publish_metadata(page=page) }}
+              {{ <page_publish_metadata page={page} author={config.extra.author.name} /> }}
             </div>
             <div class="column is-4 has-text-right-desktop">
-              {{ macros::page_content_metadata(page=page) }}
+              {{ <page_content_metadata page={page} /> }}
             </div>
             <div class="column" id="categories">
               {% if page.taxonomies.categories %}
-              {{ macros::render_categories(categories=page.taxonomies.categories) }}
+              {{ <render_categories categories={page.taxonomies.categories} /> }}
               {% endif %}
             </div>
             <div class="column has-text-right-desktop" id="tags">
               {% if page.taxonomies.tags %}
-              {{ macros::render_tags(tags=page.taxonomies.tags) }}
+              {{ <render_tags tags={page.taxonomies.tags} /> }}
               {% endif %}
             </div>
           </div>
@@ -71,42 +71,25 @@
 {% endblock %}
 
 {% block pagination %}
-{% if page.earlier or page.later or page.lighter or page.heavier %}
+{% if page.lower or page.higher %}
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <nav class="level">
-          {% if page.later %}
+          {% if page.lower %}
           <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="{{ page.later.permalink }}">
+            <a class="button is-black is-outlined" href="{{ page.lower.permalink }}">
               <span class="icon mr-2">
                 <i class="fas fa-arrow-circle-left"></i>
               </span>
-              {{ page.later.title }}
+              {{ page.lower.title }}
             </a>
           </div>
-          {% endif %} {% if page.earlier %}
+          {% endif %} {% if page.higher %}
           <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="{{ page.earlier.permalink }}">
-              {{ page.earlier.title }}<span class="icon ml-2">
-                <i class="fas fa-arrow-circle-right"></i>
-              </span>
-            </a>
-          </div>
-          {% endif %} {% if page.heavier %}
-          <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="{{ page.heavier.permalink }}">
-              <span class="icon mr-2">
-                <i class="fas fa-arrow-circle-left"></i>
-              </span>
-              {{ page.heavier.title }}
-            </a>
-          </div>
-          {% endif %} {% if page.lighter %}
-          <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="{{ page.lighter.permalink }}">
-              {{ page.lighter.title }}<span class="icon ml-2">
+            <a class="button is-black is-outlined" href="{{ page.higher.permalink }}">
+              {{ page.higher.title }}<span class="icon ml-2">
                 <i class="fas fa-arrow-circle-right"></i>
               </span>
             </a>
@@ -121,7 +104,7 @@
 {% endblock %}
 
 {% block comment %}
-{% if page.extra.comments and config.extra.commenting.disqus %}
+{% if page.extra.comments and config.extra.commenting?.disqus %}
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
@@ -181,7 +164,7 @@
 </script>
 {% endif %}
 
-{% if page.extra.comments and config.extra.commenting.disqus %}
+{% if page.extra.comments and config.extra.commenting?.disqus %}
 <script>
   var disqus_config = function () {
     this.page.url = "{{config.base_url | safe}}";
@@ -190,7 +173,7 @@
 
   (function () {
     var d = document, s = d.createElement('script');
-    s.src = 'https://{{ config.extra.commenting.disqus | safe}}.disqus.com/embed.js';
+    s.src = 'https://{{ config.extra.commenting?.disqus | safe}}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
   })();

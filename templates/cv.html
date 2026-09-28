@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ config.title }} | {{ page.title }}
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <article class="box cv">
+          <header class="cv-header">
+            <div>
+              <h1 class="title is-2">{{ page.extra.nom }}</h1>
+              <p class="subtitle is-5 is-italic">{{ page.extra.titre }}</p>
+            </div>
+            <a class="button is-dark is-outlined" href="{{ get_url(path='cv.pdf') }}" target="_blank" rel="noopener">
+              <span class="icon">
+                <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>Version PDF</span>
+            </a>
+          </header>
+          <ul class="cv-contact">
+            {% for item in page.extra.contact %}
+            <li>
+              <span class="cv-contact-label">{{ item.label }}.</span>
+              {% if item.url %}
+              <a href="{{ item.url }}">{{ item.value }}</a>
+              {% else %}
+              <span>{{ item.value }}</span>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+          {# "### left | title" headings (cf. cv/cv.typ): the left part goes in its own column #}
+          <div class="content cv-body">
+            {{ page.content | regex_replace(pattern=`<h3 id="([^"]*)">([^<|]*?) [|] (.*?)</h3>`, rep=`<h3 id="$1" class="cv-entry"><span class="cv-when">$2</span><span>$3</span></h3>`) | safe }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

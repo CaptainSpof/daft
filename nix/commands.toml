@@ -15,3 +15,15 @@ name = "serve-it"
 category = "daft"
 command = "zola serve"
 help = "serve website locally"
+
+[[commands]]
+name = "build-cv"
+category = "daft"
+command = "\"$PRJ_ROOT/cv/build.sh\" \"$@\""
+help = "build the CV into static/cv.pdf (or the given path)"
+
+[[commands]]
+name = "build-site"
+category = "daft"
+command = "\"$PRJ_ROOT/cv/build.sh\" && cd \"$PRJ_ROOT\" && zola build"
+help = "build the CV then the whole site into public/"

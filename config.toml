@@ -35,6 +35,7 @@ navbar_items = [
         { url = "$BASE_URL/projects", name = "Projects" },
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Categories" },
+        { url = "$BASE_URL/cv/", name = "CV" },
     ] },
     { code = "fr", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
@@ -42,6 +43,7 @@ navbar_items = [
         { url = "$BASE_URL/projects", name = "Projets" },
         { url = "$BASE_URL/tags", name = "Tags" },
         { url = "$BASE_URL/categories", name = "Catégories" },
+        { url = "$BASE_URL/cv/", name = "CV" },
     ] },
 ]
 

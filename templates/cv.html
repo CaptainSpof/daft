@@ -26,8 +26,11 @@
             {% for item in page.extra.contact %}
             <li>
               <span class="cv-contact-label">{{ item.label }}.</span>
-              {% if item.url %}
-              <a href="{{ item.url }}">{{ item.value }}</a>
+              {# Same rules as as-link in cv/cv.typ #}
+              {% if "@" in item.value %}
+              <a href="mailto:{{ item.value }}">{{ item.value }}</a>
+              {% elif "/" in item.value and "." in item.value %}
+              <a href="https://{{ item.value }}">{{ item.value }}</a>
               {% else %}
               <span>{{ item.value }}</span>
               {% endif %}

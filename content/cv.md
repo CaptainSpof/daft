@@ -10,7 +10,7 @@ extra:
     - label: Localisation
       value: Nanterre (92)
     - label: Email
-      value: captain.spof@gmail.com
+      value: contact@daftdaf.dev
     - label: LinkedIn
       value: linkedin.com/in/cedric-da-fonseca
     - label: GitHub
